@@ -5,7 +5,7 @@
   letter-spacing: 1.2px;
   color: #ffffff;
   font-family: var(--font-two);
-  background-color: #2e427a;
+  background-color: #ffffff;
   border: none;
   border-radius: 45px;
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
@@ -14,10 +14,14 @@
   outline: none;
   text-decoration: none;
   transition: all 0.3s ease 0s;
+  color: black;
+  font-family: relway, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 .button:hover {
-  background-color: #212f57;
+  background-color: #0c324a;
   box-shadow: 0px 15px 20px rgba(24, 38, 100, 0.4);
   color: #fff;
   transform: translateY(-7px);

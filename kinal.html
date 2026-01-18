@@ -1,0 +1,591 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fundación Kinal</title>
+    <link rel="shortcut icon" href="components/assets/KinalLogo4.svg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  </head>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Garet+Text:wght@300;400;500;600;700&display=swap');
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    }
+    .custom-navbar {
+      background-color: #234cba;
+    }
+    .img-white{
+      filter: invert();
+    }
+    .img-blue{
+      filter: invert(14%) sepia(18%) saturate(6942%) hue-rotate(212deg) brightness(95%) contrast(87%);
+    }
+    .card-fix{
+      width: 18rem;
+      min-height: 440px;
+      display: flex;
+      flex-direction: column;
+    }
+    .card-fix .card-body{
+      display: flex;
+      flex-direction: column;
+    }
+    .card-fix .btn{
+      margin-top: auto;
+    }
+    .img-size{
+      height: 220px;
+      object-fit: cover;
+      padding: 15px;
+      border-radius: 30px;
+    }
+    .barra{
+      height: 50px;
+      background-color: #e8c453;
+      width: 100%;
+    }
+
+    .texto-kinal {
+      padding: 80px;
+    }
+
+    @media (max-width: 768px) {
+      .texto-kinal {
+        padding: 40px;
+      }
+    }
+
+    .partners-card {
+      background: #ffffff;
+      max-width: 1400px;
+      margin: -100px auto 60px;
+      padding: 50px 40px;
+      box-shadow: 0 12px 30px #989aa0;
+      position: relative;
+    }
+
+    .img-hover:hover{
+      transform: scale(1.05);
+      transition: transform 0.3s;
+    }
+
+    .footer-box {
+      padding: 30px 20px;
+      border-radius: 8px;
+      min-height: 180px;
+      width: 200px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    @media (max-width: 768px) {
+      .ms-5,
+      .ps-5 {
+        margin-left: 0 !important;
+        padding-left: 0 !important;
+      }
+
+      .partners-card {
+        margin: 20px auto;
+      }
+
+      .card-fix {
+        width: 18rem;
+        min-height: 590px;
+        display: flex;
+        flex-direction: column;
+      }
+    }
+      </style>
+  <header>
+    <nav class="navbar navbar-expand-lg custom-navbar">
+  <div class="container-fluid d-flex align-items-center">
+    <a class="navbar-brand ms-4 mt-2 me-5 ms-5" href="#"><img src="components/assets/KinalLogo3.svg" alt="ERROR"
+      width="170" height="60"></a>
+      <button class="navbar-toggler img-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav mx-auto">
+        <a class="nav-link active text-light pe-5 me-2 fw-semibold" aria-current="page" href="#">APÓYANOS</a>
+        <a class="nav-link text-light pe-5 me-2 fw-semibold" href="#">QUIÉNES SOMOS</a>
+        <a class="nav-link text-light pe-5 me-2 fw-semibold" href="#">EDUCACIÓN</a>
+        <a class="nav-link text-light pe-5 me-2 fw-semibold" href="#">ANTIGUOS ALUMNOS</a>
+        <a class="nav-link text-light pe-5 fw-semibold" href="#">BOLSA DE EMPLEOS</a>
+        <a class="nav-link text-light pe-5 fw-semibold" href="index.html">VOLVER/INICIO</a>
+      </div>
+    </div>
+    <button class="btn me-4"><img src="components/assets/search.svg" alt="ERROR" 
+      width="40" height="30" class="img-white"></button>
+    <button class="btn me-5"><img src="components/assets/user.svg" alt="ERROR" 
+      width="40" height="40" class="img-white"></button>
+    </form>
+  </div>
+</nav>
+  </header>
+  <body>
+    
+    <div class="container">
+    <div class="row align-items-center my-5">
+      <div class="col-sm-6 col-md-5 col-lg-6">
+            <img src="components/assets/inicioKinal.svg" class="img-fluid" alt="ERROR" width="800" height="900">
+      </div>
+        <div class="col-sm-6 col-md-5 offset-md-2 col-lg-6 offset-lg-0">
+            <h1 style="color: #234cba;" class="fw-bolder mb-0">TU CAMINO AL ÉXITO</h1>
+            <h1 style="background-color: #e8c453; color: white; display: inline-block;" class="fw-bolder">ESTÁ EN KINAL</h1>
+            <p style="white-space: pre-line; color: #20346b; font-weight: 500;" class="fs-5">
+                Kinal es un Centro Educativo privado, no lucrativo, dirigido
+                a la formación técnica profesional de jóvenes y adultos, de
+                beneficio colectivo y asistencia en favor de los 
+                sectores más necesitados de la comunidad.
+
+                Nuestro valor fundamental es enseñar a realizar el trabajo
+                bien hecho, que sea la base de la superación de alumnos y
+                el medio para servir a los demás.
+            </p>
+            <button type="button" class="btn btn-primary btn-lg" style="background-color: #234cba;"><img src="components/assets/add.svg" alt="ERROR" width="40" height="40" class="img-white me-1 mb-1">Saber más</button>
+        </div>
+      </div>
+    </div>
+  <div class="container text-center my-5 mb-5">
+    <div class="row">
+      <h1 class="fw-bold mb-0" style="color: #e9682d;">LOS PASOS DEL APRENDIZAJE</h1>
+      <h1 class="fw-bold" style="color: #20346b;">Donde cada etapa es importante</h1>
+
+      <div class="d-none d-md-block">
+      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="5500">
+            
+            <div class="d-flex justify-content-center">
+            <div class="d-flex justify-content-center">
+            <div class="card card-fix ms-0 me-2" style="width: 18rem; background-color: #20346b;">
+              <img src="components/assets/Basicos.svg" class="card-img-top img-size" alt="ERROR">
+              <div class="card-body">
+                <h3 class="card-title text-start text-light fw-semibold">CICLO BÁSICO</h3>
+                <h4 class="text-decoration-underline text-start text-light">11-13 Años</h4>
+                <p class="card-text text-start text-light">
+                  Kinal ofrece su programa de Educación General Básica para todos aquellos jóvenes que buscan una orientación técnica y excelencia académica.
+                </p>
+                <a href="#" class="btn" style="background-color: white; color: #20346b;"><img src="components/assets/add.svg" alt="ERROR" width="40" height="40" class="img-blue me-1 mb-1">Saber más</a>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-center">
+            <div class="card card-fix ms-2" style="width: 18rem; background-color: #234cba;">
+              <img src="components/assets/Diversificado.svg" class="card-img-top img-size" alt="ERROR">
+              <div class="card-body">
+                <h3 class="card-title text-start text-light fw-semibold">DIVERSIFICADO</h3>
+                <h4 class="text-decoration-underline text-start text-light">15-18 Años</h4>
+                <p class="card-text text-start text-light mb-5">
+                  Durante 3 años se prepara al joven de forma técnica y académica, el egresado estará listo para trabajar en el ramo técnico de la especialidad que eligió estudiar; el título obtenido le permitirá ingresar a la universidad.
+                </p>
+                <a href="#" class="btn" style="background-color: white; color: #20346b;"><img src="components/assets/add.svg" alt="ERROR" width="40" height="40" class="img-blue me-1 mb-1">Saber más</a>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-center">
+            <div class="card card-fix ms-2" style="width: 18rem; background-color: #e9682d;">
+              <img src="components/assets/escuelaTecinca.svg" class="card-img-top img-size" alt="ERROR">
+              <div class="card-body">
+                <h3 class="card-title text-start text-light fw-semibold">ESCUELA TÉCNICA</h3>
+                <h4 class="text-decoration-underline text-start text-light">Adultos</h4>
+                <p class="card-text text-start text-light mb-5">
+                  Contamos con más de 30 especialidades técnicas y tecnológicas que pueden favorecer tu crecimiento y/o tu inserción laboral.
+                </p>
+                <a href="#" class="btn" style="background-color: white; color: #20346b;"><img src="components/assets/add.svg" alt="ERROR" width="40" height="40" class="img-blue me-1 mb-1">Saber más</a>
+              </div>
+            </div>
+          </div>
+          </div>
+          </div>
+
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+
+            <div class="d-flex justify-content-center">
+            <div class="d-flex justify-content-center">
+              <div class="card card-fix ms-0 me-2" style="width: 18rem; background-color: #20346b;">
+                <img src="components/assets/workigMan.svg" class="card-img-top img-size" alt="ERROR">
+                <div class="card-body">
+                  <h3 class="card-title text-start text-light fw-semibold">PROGRAMAS PARA TU NEGOCIO</h3>
+                  <p class="card-text text-start text-light mb-5">
+                    Podemos diseñar conjuntamente el programa de formación profesional que mejor se adapte a tus necesidades de capacitación.              </p>
+                  <a href="#" class="btn" style="background-color: white; color: #20346b;"><img src="components/assets/add.svg" alt="ERROR" width="40" height="40" class="img-blue me-1 mb-1">Saber más</a>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex justify-content-center">
+              <div class="card card-fix ms-2" style="width: 18rem; background-color: #234cba;">
+                <img src="components/assets/tecnicoUniversitario.svg" class="card-img-top img-size" alt="ERROR">
+                <div class="card-body">
+                  <h3 class="card-title text-start text-light fw-semibold">TÉCNICO UNIVERSITARIO</h3>
+                  <p class="card-text text-start text-light mb-5">
+                    Dirigido al fortalecimiento de mandos medios y especialmente aquellos que han cursado una carrera técnica y desean continuar con estudios a nivel universitario. Estos estudios son avalados por la Universidad del Istmo.
+                  </p>
+                  <a href="#" class="btn" style="background-color: white; color: #20346b;"><img src="components/assets/add.svg" alt="ERROR" width="40" height="40" class="img-blue me-1 mb-1">Saber más</a>
+                </div>
+              </div>
+            </div>
+            </div>
+
+          </div>
+        </div>
+        <button class="carousel-control-prev img-white" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next img-white" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div class="d-block d-md-none">
+        <div id="carouselExample" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="d-flex justify-content-center">
+                <div class="card card-fix ms-0 me-2" style="width: 18rem; background-color: #20346b;">
+                  <img src="components/assets/Basicos.svg" class="card-img-top img-size" alt="ERROR">
+                  <div class="card-body">
+                    <h3 class="card-title text-start text-light fw-semibold">CICLO BÁSICO</h3>
+                    <h4 class="text-decoration-underline text-start text-light">11-13 Años</h4>
+                    <p class="card-text text-start text-light">
+                      Kinal ofrece su programa de Educación General Básica para todos aquellos jóvenes que buscan una orientación técnica y excelencia académica.
+                    </p>
+                    <a href="#" class="btn" style="background-color: white; color: #20346b;"><img src="components/assets/add.svg" alt="ERROR" width="40" height="40" class="img-blue me-1 mb-1">Saber más</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="d-flex justify-content-center">
+                <div class="card card-fix ms-2" style="width: 18rem; background-color: #234cba;">
+                  <img src="components/assets/Diversificado.svg" class="card-img-top img-size" alt="ERROR">
+                  <div class="card-body">
+                    <h3 class="card-title text-start text-light fw-semibold">DIVERSIFICADO</h3>
+                    <h4 class="text-decoration-underline text-start text-light">15-18 Años</h4>
+                    <p class="card-text text-start text-light mb-5">
+                      Durante 3 años se prepara al joven de forma técnica y académica, el egresado estará listo para trabajar en el ramo técnico de la especialidad que eligió estudiar; el título obtenido le permitirá ingresar a la universidad.
+                    </p>
+                    <a href="#" class="btn" style="background-color: white; color: #20346b;"><img src="components/assets/add.svg" alt="ERROR" width="40" height="40" class="img-blue me-1 mb-1">Saber más</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="d-flex justify-content-center">
+                <div class="card card-fix ms-2" style="width: 18rem; background-color: #e9682d;">
+                  <img src="components/assets/escuelaTecinca.svg" class="card-img-top img-size" alt="ERROR">
+                  <div class="card-body">
+                    <h3 class="card-title text-start text-light fw-semibold">ESCUELA TÉCNICA</h3>
+                    <h4 class="text-decoration-underline text-start text-light">Adultos</h4>
+                    <p class="card-text text-start text-light mb-5">
+                      Contamos con más de 30 especialidades técnicas y tecnológicas que pueden favorecer tu crecimiento y/o tu inserción laboral.
+                    </p>
+                    <a href="#" class="btn" style="background-color: white; color: #20346b;"><img src="components/assets/add.svg" alt="ERROR" width="40" height="40" class="img-blue me-1 mb-1">Saber más</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="d-flex justify-content-center">
+                <div class="card card-fix ms-0 me-2" style="width: 18rem; background-color: #20346b;">
+                  <img src="components/assets/workigMan.svg" class="card-img-top img-size" alt="ERROR">
+                  <div class="card-body">
+                    <h3 class="card-title text-start text-light fw-semibold">PROGRAMAS PARA TU NEGOCIO</h3>
+                    <p class="card-text text-start text-light mb-5">
+                      Podemos diseñar conjuntamente el programa de formación profesional que mejor se adapte a tus necesidades de capacitación.              </p>
+                    <a href="#" class="btn" style="background-color: white; color: #20346b;"><img src="components/assets/add.svg" alt="ERROR" width="40" height="40" class="img-blue me-1 mb-1">Saber más</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="d-flex justify-content-center">
+                <div class="card card-fix ms-2" style="width: 18rem; background-color: #234cba;">
+                  <img src="components/assets/tecnicoUniversitario.svg" class="card-img-top img-size" alt="ERROR">
+                  <div class="card-body">
+                    <h3 class="card-title text-start text-light fw-semibold">TÉCNICO UNIVERSITARIO</h3>
+                    <p class="card-text text-start text-light mb-5">
+                      Dirigido al fortalecimiento de mandos medios y especialmente aquellos que han cursado una carrera técnica y desean continuar con estudios a nivel universitario. Estos estudios son avalados por la Universidad del Istmo.
+                    </p>
+                    <a href="#" class="btn" style="background-color: white; color: #20346b;"><img src="components/assets/add.svg" alt="ERROR" width="40" height="40" class="img-blue me-1 mb-1">Saber más</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon img-white" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon img-white" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="barra"></div>
+  <div class="container-fluid p-0">
+      
+      <div class="row align-items-center mx-0" 
+            style="background: linear-gradient(to right, #20346b, #234cba);">
+
+      <div class="col-md-6">
+        <div class="container texto-kinal">
+          <h1 class="fw-bolder mt-5 text-light">EN FUNDACIÓN KINAL</h1>
+          <h1 style="background-color: #e8c453; display: inline-block;" 
+              class="fw-bolder mb-5 text-light">SOMOS SUPERACIÓN</h1>
+          <p style="color: #ffff; font-weight: 500;" class="fs-4">
+              Para quienes empiezan y para quienes avanzan, un camino que se fortalece gracias al 
+              compromiso de aliados y patrocinadores que creen en el futuro.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-md-6 text-end pe-0">
+          <img src="components/assets/Establecimiento.svg" class="img-fluid" alt="ERROR" 
+          width="800" height="900" 
+          style="margin-bottom: -60px;">
+      </div>
+
+  </div>
+
+
+
+</div>
+
+  <div class="container partners-card text-center">
+
+  <h2 class="partners-title mb-5 fs-1" style="color: #234cba; font-weight: 800;">NUESTROS PARTNERS</h2>
+
+  <div class="row justify-content-center align-items-center g-4">
+
+    <div class="col-6 col-md-4 col-lg-3">
+      <a href="https://unis.edu.gt/" target="_blank">
+      <img src="components/assets/ISTMO.svg" class="img-fluid img-hover" alt="ERROR" width="250" height="200">
+      </a>
+    </div>
+
+    <div class="col-6 col-md-4 col-lg-3">
+      <a href="https://autos.honda.com.gt/" target="_blank">
+      <img src="components/assets/HONDA.svg" class="img-fluid img-hover" alt="ERROR" width="200" height="200">
+      </a>
+    </div>
+
+    <div class="col-6 col-md-4 col-lg-3">
+      <a href="https://academy.oracle.com/en/oa-web-overview.html" target="_blank">
+      <img src="components/assets/ORACLE.svg" class="img-fluid img-hover" alt="ERROR" width="200" height="200">
+      </a>
+    </div>
+
+  </div>
+</div>
+
+  <div class="container text-center">
+    <div class="">
+
+      <h1 class="fw-bold mb-0" style="color: #e9682d;">¿ERES ANTIGUO ALUMNO?</h1>
+      <h1 class="fw-bold" style="color: #20346b;">¡LAS EMPRESAS TE ESTÁN BUSCANDO!</h1>
+
+    <div class="row align-items-center my-5">
+      <div class="col-sm-6 col-md-5 col-lg-6">
+          <img src="components/assets/trabajo.svg" class="img-fluid" alt="ERROR" width="450" height="400">
+      </div>
+        <div class="col-sm-6 col-md-5 offset-md-2 col-lg-6 offset-lg-0">
+            <p style="white-space: pre-line; color: #20346b; font-weight: 500;" class="fs-5 text-start">
+                Durante 2023 recibimos <strong>más de 600 solicitudes
+                de trabajo</strong> para nuestros antiguos alumnos.
+
+                Consolidando el puente entre la educación y el 
+                camino del mundo laboral.
+            </p>
+
+            <div class="row">
+              <div class="col-12 col-md-6 col-lg-4">
+                <button type="button" class="btn btn-primary btn-lg w-100 mb-2 text-start" 
+                style="background-color: #234cba; border-radius: 0;">
+                <img src="components/assets/add.svg" alt="ERROR" width="20" height="20" class="img-white me-1 mb-1">Electricidad</button>
+                <button type="button" class="btn btn-primary btn-lg w-100 mb-2 text-start" 
+                style="background-color: #234cba; border-radius: 0; font-size: 0.8rem;">
+                <img src="components/assets/add.svg" alt="ERROR" width="20" height="20" class="img-white me-1 mb-1">Mecánica Automotriz</button>
+                <button type="button" class="btn btn-primary btn-lg w-100 mb-2 text-start" 
+                style="background-color: #234cba; border-radius: 0;">
+                <img src="components/assets/add.svg" alt="ERROR" width="20" height="20" class="img-white me-1 mb-1">Informática</button>
+              </div>
+              <div class="col-12 col-md-6 col-lg-4">
+                <button type="button" class="btn btn-primary btn-lg w-100 mb-2 text-start" 
+                style="background-color: #234cba; border-radius: 0;">
+                <img src="components/assets/add.svg" alt="ERROR" width="20" height="20" class="img-white me-1 mb-1">Dibujo Técnico</button>
+                <button type="button" class="btn btn-primary btn-lg w-100 mb-2 text-start" 
+                style="background-color: #234cba; border-radius: 0;">
+                <img src="components/assets/add.svg" alt="ERROR" width="20" height="20" class="img-white me-1 mb-1">Electricidad</button>
+                <button type="button" class="btn btn-primary btn-lg w-100 mb-2 text-start" 
+                style="background-color: #234cba; border-radius: 0;">
+                <img src="components/assets/add.svg" alt="ERROR" width="20" height="20" class="img-white me-1 mb-1">Otros</button>
+              </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+  </div>
+
+  <div class="container text-center">
+    <div class="">
+
+
+      <h1 class="fw-bold pt-5" style="color: #20346b;">¡NECESITAMOS MÁS</h1>
+      <h1 class="fw-bold mb-0" style="color: #e9682d;">JÓVENES DE ESTE LADO!</h1>
+
+    <div class="row align-items-center my-5 mx-0">
+      <div class="col-sm-6 col-md-5 offset-md-2 col-lg-6 offset-lg-0">
+
+        <div class="ms-5 align-middle">
+        <img src="components/assets/donacionImg.svg" alt="ERROR" class="img-fluid">
+        </div>
+        
+        <p style="white-space: pre-line; color: #20346b; font-weight: 500;" 
+            class="fs-5 text-center ms-5 ps-5">
+                Cada <strong>donación</strong> que haces ayuda a la educación 
+                de un joven guatemalteco de escasos recursos a 
+                tener <strong>una educación de calidad.</strong>
+            </p>
+
+              <div class="ps-5 ms-5 mb-2">
+                <button type="button" class="btn btn-primary btn-lg" style="background-color: #234cba; border-radius: 0;"><img src="components/assets/Donacion.svg" alt="ERROR" width="20" height="20" class="me-2 mb-2">DONACIÓN</button>
+              </div>
+      </div>
+        <div class="col-sm-6 col-md-5 col-lg-6 mb-5">
+            <img src="components/assets/Jovenes.svg" class="img-fluid" alt="ERROR" width="450" height="400">
+        </div>
+    </div>
+    </div>
+  </div>
+
+  <div class="container">
+  <div class="row align-items-center mb-5" 
+            style="background: linear-gradient(to right, #20346b, #234cba); border-radius: 0.5rem;">
+
+      <h1 class="fw-bolder mt-5 text-light text-center">
+        ¿Por qué este diseño es más atrativo/funcional?
+      </h1>
+
+      <p class="fs-5 text-light text-center" style="white-space: pre-line;">
+        Tiene una mejor distribución visual ya que se diferencian los titulos, 
+        subtitulos y los parrafos, lo que facilita su lectura.
+        Tiene una mejor navegación por el sitio web, ya que el menú de navegación
+        es más accesible.
+        El diseño es más moderno y atractivo visualmente, lo que puede captar
+        mejor la atención de los usuarios
+      </p>
+
+    </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+
+  <footer>
+
+    <div class="container-fluid p-0 pt-5" 
+         style="background-color: #20346b; color: white;">
+
+         <h2 class="text-center fw-bold mb-4">JÓVENES BENEFICIADOS (A 2024)</h2>
+
+         <div class="container text-center">
+            <div class="row gx-4 text-light justify-content-center">
+              <div class="col-md-3 footer-box me-2 mb-2" style="background-color: #e3ba31;">
+                <h2 class="fw-bold fs-1">25K</h2>
+                ESCUELA TÉCNICA
+              </div>
+              <div class="col-md-3 footer-box me-2 mb-2" style="background-color: #234cba;">
+                <h2 class="fw-bold fs-1">1500</h2>
+                CICLO BÁSICO
+              </div>
+              <div class="col-md-3 footer-box me-2 mb-2" style="background-color: #e9682d;">
+                <h2 class="fw-bold fs-1">6k</h2>
+                DIVERSIFICADO
+              </div>
+              <div class="col-md-3 footer-box" style="background-color: #9d2d2d;">
+                <h2 class="fw-bold fs-1">32K</h2>
+                TOTAL
+              </div>
+            </div>
+          </div>
+
+         <div class="container text-center mt-5">
+            <div class="row align-items-center">
+              <div class="col text-start align-items-center">
+
+                <h5 class="fw-bold">CONTÁCTANOS</h5>
+                <h6>infocet@kinal.org.gt</h6>
+                <h6>infobas@kinal.org.gt</h6>
+                <img src="components/assets/curso.svg" alt="ERROR">
+                <h6>infoets@kinal.org.gt</h6>
+                <h6>infotic@kinal.org.gt</h6>
+
+              </div>
+              <div class="col">
+                <img src="components/assets/KinalLogo3.svg" alt="ERROR" class="img-fluid mt-2" 
+                width="250px" height="40px">
+              </div>
+              <div class="col text-end">
+                <h6>6 avenida 13-54 zona 7, Colonia</h6>
+                <h6>Landívar, 01007 Ciudad de Guatemala,</h6>
+                <h6>Guatemala, C.A.</h6>
+              </div>
+            </div>
+          </div>
+
+          <br>
+          
+      <div class="container text-center mt-5 mb-3">
+            <div class="row align-items-center">
+              <div class="col text-start align-items-center mb-4">
+
+              <h5 class="fw-bold">BOLSA DE EMPLEOS</h5>
+              <h6>empleos@kinal.edu.gt</h6>
+              <h6>lesterguerra@kinal.org.gt</h6>
+              <h6 class="text-decoration-underline">WhatsApp: 2216-0090</h6>
+
+              </div>
+              <div class="col">
+              </div>
+              <div class="col text-end">
+              <img src="components/assets/admisiones.svg" alt="ERROR" class="">
+              <img src="components/assets/instagram.svg" alt="ERROR" class="img-fluid">
+              <img src="components/assets/youtube.svg" alt="ERROR" class="img-fluid">
+              <img src="components/assets/facebook.svg" alt="ERROR" class="img-fluid">
+              </div>
+            </div>
+          </div>                          
+
+      <div class="row align-items-center mx-0">
+
+        <div class="col-md-6 text-start ps-5 py-4">
+          <p style="font-weight: 500;" class="mb-0">
+            © 2026 Fundación Kinal. Todos los derechos reservados.
+          </p>
+        </div>
+
+        <div class="col-md-6 text-end pe-5 py-4">
+          <p style="font-weight: 500;" class="mb-0">
+            Política de Privacidad | Términos y Condiciones
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+  </footer>
+</html>

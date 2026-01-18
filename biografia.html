@@ -12,8 +12,14 @@
 <style>
     body{
         background-color: #DEDEDE;
+        margin-top: 7rem;
     }
     @media (max-width: 600px) {
+
+    body{
+        margin: 0;
+    }
+
     section {
         margin: 15px;
         padding: 20px;
@@ -21,17 +27,37 @@
     
     .header h1 {
         font-size: 1.8rem;
+        height: 28px;
+        flex-grow: 0;
     }
 
     .header{
+        margin: 0;
+        flex-direction: column;
         text-align: center;
-        display: block;
+        display: inline-block;
+        gap: 5px;
+        padding-left: 5px;
+        position: static;
     }
 
     .button {
         display: inline-block;
-        margin-top: 0.5rem;
-    }        
+        margin-top: 0.8rem;
+    }
+    
+    .header nav {
+        justify-content: center;
+    }
+
+    .section {
+        display: inline-block;
+    }
+
+    .section-image img {
+        width: 180px;
+        margin-left: 20%;
+    }
 }
 </style>
 <body>
@@ -43,29 +69,46 @@
         </nav>
     </header>
 
+    
     <section class="section">
+    <div class="section-content">
         <h2>Breve Introducción</h2>
         <p>Soy <strong>José Lisandro Morán Mendoza</strong></p>
-        <p>Nacido en Cuidad de Guatemala, un 16 de agosto de 2007.</p>
+        <p>Nacido en Ciudad de Guatemala, un 16 de agosto de 2007.</p>
         <p>Actualmente soy mayor de edad con 18 años.</p>
         <p>Fue el segundo de 2 hermanos, siendo el menor.</p>
+    </div>
+
+    <div class="section-image">
+        <img src="/components/assets/CuidadGuatemala.svg" alt="Introducción">
+    </div>
     </section>
 
     <section class="section">
-        <h2>Primero años/Formación</h2>
-        <P>Fui formado por mis padres desde pequeño, me enseñaron los valores importantes de la vida.</P>
-        <p>Luego en el lugar donde estudie me enseñaron más valores.</p>
-        <p>Siempre fui muy callado; socializar nunca ha sido mi fuerte.</p>
+        <div class="section-content">
+            <h2>Primero años/Formación</h2>
+            <P>Fui formado por mis padres desde pequeño, me enseñaron los valores importantes de la vida.</P>
+            <p>Luego en el lugar donde estudie me enseñaron más valores.</p>
+            <p>Siempre fui muy callado; socializar nunca ha sido mi fuerte.</p>
+        </div>
+        <div class="section-image">
+            <img src="/components/assets/valores.svg" alt="Formación">
+        </div>
     </section>
 
     <section class="section">
-        <h2>Formación Profesional</h2>
-        <p>Estudie en un mismo colegio desde pre-kinder hasta 1ro básico</p>
-        <p>Mi primer colegio fue "Colegio Castillo del Bosque".</p>
-        <p>Posteriormente me cambie de colegio al "Centro Educativo Técnico Laboral Kinal"</p>
+        <div class="section-content">
+            <h2>Formación Profesional</h2>
+            <p>Estudie en un mismo colegio desde pre-kinder hasta 1ro básico</p>
+            <p>Mi primer colegio fue "Colegio Castillo del Bosque".</p>
+            <p>Posteriormente me cambie de colegio al "Centro Educativo Técnico Laboral Kinal"</p>
+        </div>
+        <div class="section-image">
+            <img src="/components/assets/KinalLogo.svg" alt="Formación Profesional">
+        </div>
     </section>
-
     <section class="section">
+        <div class="section-content">
         <h2>Gustos</h2>
         <ul>
             <li>
@@ -88,12 +131,41 @@
                 <p>Desde hace muy poco tiempo me he vuelto muy fanatico del deporte automovilistico, siendo muy fan de la Formuala 1, y de la WEC.</p>
             </li>
         </ul>
+        </div>
     </section>
 
+    <section class="section">
+        <div class="section-content">
+            <h2>Expectativas de este año educatuvo.</h2>
+            <P>Este año espero lograr pasar los examenes de la Universidad,
+            también espero poder formarme profesionalmente, y completar
+            las Practicas establecidas de este año.
+            Espero también aprender nuevas cosas este año.</p>
+        </div>
+        <div class="section-image">
+            <img src="/components/assets/expectativas.svg" alt="Formación">
+        </div>
+    </section>
 
     <section class="section">
-        <h2>Reflexión</h2>
-        <p>Actualmente soy Estudiante en el "Centro Educativo Técnico Laboral Kinal", tengo pensado proximanteir a la Universidad, pero, estudiar algo distinto.</p>
+        <div class="section-content">
+            <h2>Tiempo ha dedicar a los estudios</h2>
+            <P>Este año espero dedicarle más tiempo a estudiar,
+            así logrando conseguir mejores resultados. Con eso, también
+            espero lograr mejorar mis habilidades programando, mejorar en
+            clases como matemáticas y física 
+            </p>
+        </div>
+        <div class="section-image">
+            <img src="/components/assets/Tiempo.svg" alt="Formación">
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="section-content">
+            <h2>Reflexión</h2>
+            <p>Actualmente soy Estudiante en el "Centro Educativo Técnico Laboral Kinal", tengo pensado proximamente a la Universidad, pero, estudiar algo distinto.</p>
+        </div>
     </section>
 
     <footer class="footer">

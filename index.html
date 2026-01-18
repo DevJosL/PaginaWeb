@@ -3,9 +3,111 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Página Principal</title>
+    <link rel="stylesheet" href="components/layout/Header/Header.css">
+    <link rel="stylesheet" href="components/layout/Footer/Footer.css">
+    <link rel="stylesheet" href="components/common/Button/Button.css">
+    <link rel="stylesheet" href="components/sections/main/HeroA.css">
 </head>
+<style>
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        font-family:'Raleway', sans-serif;
+        background-color: var(--light-gray);
+        color: var(--dark);
+        line-height: 1.6;
+        padding-top: 110px;
+        background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.68), rgba(0, 0, 0, 0.721)),
+        url('components/assets/Formula1.svg');
+        background-size: 100%;
+    }
+
+    body h1.titulo {
+        text-align: center;
+        margin: 40px 0 20px;
+        font-size: 2.5rem;
+        color: var(--red-main);
+        filter: invert();
+    }
+
+    @media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        gap: 5px;
+        box-sizing: border-box;
+        position: static;
+    }
+
+    .header nav {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    body{
+        padding: 0;
+    }
+
+    body h1 {
+        font-size: 2.4rem;
+    }
+
+    body h3{
+        line-height: 1.8rem;
+    }
+}
+</style>
+<header class="header" style="background: #c11720;">
+    <h1 style="filter: invert();">INICIO</h1>
+    <nav>
+        <a href="index.html" class="button">Inicio</a>
+        <a href="biografia.html" class="button">Biografía</a>
+        <a href="kinal.html" class="button">KINAL</a>
+    </nav>
+</header>
 <body>
-    <h1>HOLA MUNDO</h1>
+    <h1 = class="titulo">Automovilismo</h1>
+    <section>
+        <div>
+            <h3>¿Qué es el automovilismo y por qué me gusta?</h3>
+            <p style="white-space: pre-line;">
+                El automovilismo es un deporte que consiste en competencias de vehículos motorizados.
+                Me gusta el automovilismo, ya que desde pequeño he sido muy fanático de los autos
+                deportivos, lo que posteriormente hizo que me gustara este deporte. Este deporte combina 
+                la velocidad y la habilidad de cada piloto para ser muy emocionante, junto con los diseños muy
+                atractivos de los autos. Además, es emocionante ver cómo los pilotos manejan a altas 
+                velocidades en los mejores circuitos del mundo, llegando al límite en cada carrera que corren.
+                Disfruto mucho viendo La Fórmula 1, WEC, GT3 y Rally.
+            </p>
+            <br>
+            <h3>¿Cuánto tiempo le dedico a este tema?</h3>
+            <p style="white-space: pre-line;">
+                Generalmente le dedico tiempo los fines de semana, ya que es cuando hay la 
+                mayoria de carreras importantes. Puedo ver durante mucho tiempo carreras, ya que existen
+                carreras de diferentes duraciones, desde carreras cortas de 30 minutos hasta carreras de resistencia
+                que pueden durar hasta 24 horas. También veo mucho contenido relacionado con el automovilismo en redes sociales,
+                como analisis de carreras, tecnología de los autos y entrevistas con pilotos.
+            </p>
+            <br>
+            <h3>Datos adicionales</h3>
+            <p style="white-space: pre-line;">
+                Los autos de carrera suelen ser muy diferente a los autos de calle,
+                ya que están diseñados  para lograr el máximo rendimiento en pista.
+                Lo que hace que estos carros tienen una tecnología avanzada, como motores más potentes,
+                aerodinámica optimizada y sistemas de suspensión especializados.
+                Esto hace que este tipo de autos sean muy rápidos tanto como en rectas como en curvas, y
+                al mismo tiempo hace que estos carros en su masyoria no sean ilegales en las calles.
+            </p>
+        </div>
+    </section>
+
 </body>
+<footer class="footer" style="background: #c11720;">
+    <h4>jmoran-2022388@kinal.edu.gt</h4>
+</footer>
 </html>
